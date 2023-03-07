@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #475569;
+}
+
+.arrowImage {
+  font-size: 18px;
+  width: 23px;
+  height: 23px;
+}

@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.suggestionContainer {
+  width: 80%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.google {
+  align-self: center;
+  margin: 15px;
+  width: 40%;
+}
+
+.searchContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  outline: none;
+  width: 60%;
+  margin-top: 15px;
+  border-radius: 20px;
+  padding-left: 25px;
+}
+
+.inputSearchContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.searchIcon {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.searchInput {
+  width: 80%;
+  height: 30px;
+  color: #64748b;
+  font-size: 20px;
+  padding: 08px;
+  font-weight: 600;
+}
